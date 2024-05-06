@@ -1,0 +1,23 @@
+name: ai_agent
+dependencies:
+  - python=3.10.10
+  - pip=23.3.1
+  - pip:
+    - faster-whisper
+    - torchaudio
+    - SoundFile 
+    - munch 
+    - torch 
+    - pydub 
+    - pyyaml 
+    - librosa 
+    - nltk 
+    - matplotlib 
+    - accelerate 
+    - transformers 
+    - phonemizer 
+    - einops 
+    - einops-exts 
+    - tqdm 
+    - typing-extensions 
+    - git+https://github.com/resemble-ai/monotonic_align.git
